@@ -15,36 +15,36 @@
     <div class="calculator">
         <div class=calculator__body>
 
-            <div class="calculator__screen"><input type="text" value=0></div>
+            <div class="calculator__screen"><input type="text" value=""disabled></div>
 
             <div class="calculator__buttons">
                 <div class="col-1">
-                    <button type="button" class="symbols" value="+"><i class="fas fa-plus"></i></button>
-                    <button type="button" value="7">7</button>
+                    <button type="button" class="operator" value="+"><i class="fas fa-plus"></i></button>
+                    <button id= "btn7" type="button" value="7">7</button>
                     <button type="button" value="4">4</button>
-                    <button type="button" value="1">1</button>
+                    <button id ="one" type="button" value="1">1</button>
                     <button type="button" value="0">0</button>
                 </div>
 
                 <div class="col-2">
-                    <button type="button" class="symbols" value="-"><i class="fas fa-minus"></i></button>
+                    <button type="button" class="operator" value="-"><i class="fas fa-minus"></i></button>
                     <button type="button" value="8">8</button>
                     <button type="button" value="5">5</button>
                     <button type="button" value="2">2</button>
-                    <button type="button" value=".">.</button>
+                    <button type="button" class="decimal" value=".">.</button>
                 </div>
 
                 <div class="col-3">
-                    <button type="button" class="symbols" value="*"><i class="fas fa-times"></i></button>
+                    <button type="button" class="operator" value="*"><i class="fas fa-times"></i></button>
                     <button type="button" value="9">9</button>
                     <button type="button" value="6">6</button>
                     <button type="button" value="3">3</button>
-                    <button type="button" value="clear">C</button>
+                    <button type="button" class="clear" value="">C</button>
                 </div>
 
                 <div class="col-4">
-                    <button type="button" class="symbols" value="/"><i class="fas fa-divide"></i></button>
-                    <button type="button" class="equal symbols" value="="><i class="fas fa-equals"></i></button>
+                    <button type="button" class="operator" value="/"><i class="fas fa-divide"></i></button>
+                    <button type="button" class="equal operator" value="="><i class="fas fa-equals"></i></button>
                 </div>
             </div>
 
